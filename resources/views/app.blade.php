@@ -35,63 +35,60 @@
             </nav>
 
     <div class="wrapper">
-        <!-- Konten utama halaman -->
-        <div class="content">
-            <h1>Selamat Datang di SMKN 1 Ciomas</h1>
-            <p>Isi konten halaman di sini...</p>
-        </div>
 
             <!-- Footer -->
-                    <footer>
-                        <div class="footer-container">
+<footer style="background-color:#123A6B; color:#fff; padding:50px 20px; font-family:sans-serif;">
+  <div style="display:flex; flex-wrap:wrap; justify-content:space-between; max-width:1200px; margin:0 auto;">
 
-                            <!-- Hubungi Kami -->
-                        <div class="footer-section">
-                                <h3>Hubungi Kami</h3>
-                                <p>
-                                    SMK Negeri 1 Ciomas<br>
-                                    Jl. Raya Laladon, Kec Ciomas<br>
-                                    Kab. Bogor, Jawa Barat<br>
-                                    Phone: +62251 7520933<br>
-                                    Email: smkn1_ciomas@yahoo.co.id
-                                </p>
-                                <div class="social">
-                                    <a href="#">&#xf09a;</a> <!-- FB icon -->
-                                    <a href="#">&#xf099;</a> <!-- Twitter icon -->
-                                </div>
-                            </div>
+    <!-- Hubungi Kami -->
+    <div style="flex:1; min-width:200px; margin-bottom:20px;">
+      <h3 style="color:#26C0C0;">Hubungi Kami</h3>
+      <p>SMK Negeri 1 Ciomas<br>
+      Jl. Raya Laladon, Kec Ciomas<br>
+      Kab. Bogor, Jawa Barat<br>
+      Phone: +62251 7520933<br>
+      Email: smkn1_ciomas@yahoo.co.id</p>
+      <div style="margin-top:10px;">
+        <a href="#" style="color:#fff; text-decoration:none; margin-right:10px; font-size:20px;">&#xf09a;</a> <!-- FB icon -->
+        <a href="#" style="color:#fff; text-decoration:none; font-size:20px;">&#xf099;</a> <!-- Twitter icon -->
+      </div>
+    </div>
 
-                            <!-- Program Keahlian -->
-                            <div class="footer-section">
-                                <h3>Program Keahlian</h3>
-                                <ul>
-                                    <li>Animasi</li>
-                                    <li>Pengembangan Perangkat Lunak dan Gim / Rekayasa Perangkat Lunak</li>
-                                    <li>Broadcasting & Perfilman / Produksi & Siaran Program Televisi</li>
-                                    <li>Teknik Otomotif / Teknik Kendaraan Ringan</li>
-                                    <li>Teknik Pengelasan & Fabrikasi Logam / Teknik Pengelasan</li>
-                                </ul>
-                            </div>
+    <!-- Program Keahlian -->
+    <div style="flex:1; min-width:200px; margin-bottom:20px;">
+      <h3 style="color:#26C0C0;">Program Keahlian</h3>
+      <ul style="list-style:none; padding:0; line-height:1.8;">
+        <li>Animasi</li>
+        <li>Pengembangan Perangkat Lunak dan Gim / Rekayasa Perangkat Lunak</li>
+        <li>Broadcasting & Perfilman / Produksi & Siaran Program Televisi</li>
+        <li>Teknik Otomotif / Teknik Kendaraan Ringan</li>
+        <li>Teknik Pengelasan & Fabrikasi Logam / Teknik Pengelasan</li>
+      </ul>
+    </div>
 
-                            <!-- External Link -->
-                            <div class="footer-section">
-                                <h3>External Link</h3>
-                                <ul>
-                                    <li><a href="#">SIMPKB</a></li>
-                                    <li><a href="#">Disdik Jabar</a></li>
-                                </ul>
-                            </div>
+    <!-- External Link -->
+    <div style="flex:1; min-width:150px; margin-bottom:20px;">
+      <h3 style="color:#26C0C0;">External Link</h3>
+      <ul style="list-style:none; padding:0; line-height:1.8;">
+        <li><a href="#" style="color:#fff; text-decoration:none;">SIMPKB</a></li>
+        <li><a href="#" style="color:#fff; text-decoration:none;">Disdik Jabar</a></li>
+      </ul>
+    </div>
 
-                            <!-- Peta Lokasi -->
-                            <div class="footer-section">
-                                <h3>Peta Lokasi</h3>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.000000!2d106.708000!3d-6.580000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzQnMjYuMCJTIDEwNsKwNDInMTEuMCJF!5e0!3m2!1sen!2sid!4v1234567890" width="100%" height="150" allowfullscreen="" loading="lazy"></iframe>
-                                <a href="#" class="map-button">Petunjuk Menuju Lokasi</a>
-                            </div>
+    <!-- Peta Lokasi -->
+    <div style="flex:1; min-width:200px; margin-bottom:20px;">
+      <h3 style="color:#26C0C0;">Peta Lokasi</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.000000!2d106.708000!3d-6.580000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzQnMjYuMCJTIDEwNsKwNDInMTEuMCJF!5e0!3m2!1sen!2sid!4v1234567890"
+        width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <a href="#" style="display:inline-block; margin-top:10px; padding:5px 10px; background-color:#123A6B; border:1px solid #FFC107; color:#FFC107; text-decoration:none; border-radius:4px;">Petunjuk Menuju Lokasi</a>
+    </div>
 
-                             <p class="copyright">Copyright © 2022 SMKN 1 Ciomas</p>
-                             </div>
-        </footer>
+  </div>
+
+  <p style="text-align:center; margin-top:30px; color:#26C0C0;">Copyright © 2022 SMKN 1 Ciomas</p>
+</footer>
+
     </div>
     </body>
 </html>
