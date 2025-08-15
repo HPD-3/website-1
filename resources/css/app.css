@@ -7,3 +7,120 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+ /* Navbar Container */
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 30px;
+     background-color: #fff;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Logo dan Nama Sekolah */
+ .navbar-left {
+     display: flex;
+     align-items: center;
+ }
+
+ .navbar-left img {
+     height: 50px;
+     margin-right: 10px;
+ }
+
+ .navbar-left .school-name {
+     font-weight: bold;
+     font-size: 20px;
+     color: #000;
+ }
+
+ /* Menu Navigasi */
+ .navbar-right a {
+     margin-left: 25px;
+     text-decoration: none;
+     color: #9aa3b1;
+     /* warna abu-abu muda */
+     font-weight: 500;
+     transition: color 0.3s;
+ }
+
+ .navbar-right a.active,
+ .navbar-right a:hover {
+     color: #4da8f0;
+     /* warna biru aktif */
+ }
+
+ @media (max-width: 768px) {
+     .navbar {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .navbar-right {
+         margin-top: 10px;
+     }
+
+     .navbar-right a {
+         margin-left: 0;
+         margin-right: 15px;
+     }
+ }
+ /* Navbar Container */
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 30px;
+     background-color: #fff;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Logo dan Nama Sekolah */
+ .navbar-left {
+     display: flex;
+     align-items: center;
+ }
+
+ .navbar-left img {
+     height: 50px;
+     margin-right: 10px;
+ }
+
+ .navbar-left .school-name {
+     font-weight: bold;
+     font-size: 20px;
+     color: #000;
+ }
+
+ /* Menu Navigasi */
+ .navbar-right a {
+     margin-left: 25px;
+     text-decoration: none;
+     color: #9aa3b1;
+     /* warna abu-abu muda */
+     font-weight: 500;
+     transition: color 0.3s;
+ }
+
+ .navbar-right a.active,
+ .navbar-right a:hover {
+     color: #4da8f0;
+     /* warna biru aktif */
+ }
+
+ @media (max-width: 768px) {
+     .navbar {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .navbar-right {
+         margin-top: 10px;
+     }
+
+     .navbar-right a {
+         margin-left: 0;
+         margin-right: 15px;
+     }
+ }

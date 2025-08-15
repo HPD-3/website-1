@@ -19,6 +19,19 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
-        @inertia
+        <!-- Navbar -->
+             <nav class="navbar">
+                <div class="navbar-left">
+                <img src="{{ asset('images/skanic.png') }}" alt="Logo">
+                <div class="school-name">SMKN 1 CIOMAS</div>
+                </div>
+                <div class="navbar-right">
+                <a href="#" class="active">BERANDA</a>
+                <a href="#">PROFIL</a>
+                <a href="#">E-PERPUS</a>
+                <a href="#">Program Keahlian</a>
+                <a href="#">Berita & Artikel</a>
+                </div>
+            </nav>
     </body>
 </html>
